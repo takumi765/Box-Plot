@@ -8,11 +8,11 @@ font_path = "C:/Windows/Fonts/meiryo.ttc"  # ご利用の環境に合わせて�
 jp_font = font_manager.FontProperties(fname=font_path).get_name()
 plt.rcParams['font.family'] = jp_font
 
-title = "hogehoge"
+title = "test1"
 
 # CSVファイルからデータを読み込む
 # df = pd.read_csv('./multimodal/IPQ-'+title+'.csv')
-df = pd.read_csv('./fugafuga/'+title+'.csv')
+df = pd.read_csv('./test/'+title+'.csv')
 
 # 被験者ID以外の列を条件として整形
 condition_columns = df.columns[1:]  # 被験者ID以外の列を条件とする

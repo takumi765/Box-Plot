@@ -18,4 +18,4 @@ def plot_number_line_from_csv(file_path, x_column, output_path):
     plt.show()
 
 # 例: CSVファイル 'data.csv' から 'value' 列を読み込んでプロット
-plot_number_line_from_csv('./paired/exp.csv', 'value', './pdf/exp.pdf')
+plot_number_line_from_csv('./test/test2.csv', 'value', './pdf/test2.pdf')
